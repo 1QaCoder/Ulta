@@ -1,0 +1,15 @@
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<suite name="testing">
+ <test name="tests" >
+ <groups>  
+<run>  
+<exclude name="SkipTest"/>  
+</run>  
+</groups>  
+ 
+  <classes>
+ <class name="TestPackage.MenubarTest" />
+<class name="TestPackage.LoginTest"/>
+ </classes>
+ </test>
+ </suite>

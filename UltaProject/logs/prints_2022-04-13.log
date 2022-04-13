@@ -1,0 +1,14 @@
+[INFO ] 2022-04-13 01:01:58,975 MenubarTest.launching() - Open the Home Page
+[INFO ] 2022-04-13 01:02:07,804 MenubarTest.findStore() - Click on FindStore Tab from HomePage
+[INFO ] 2022-04-13 01:02:09,612 MenubarTest.findStore() - Successfully validated the test 
+[INFO ] 2022-04-13 01:02:14,310 MenubarTest.closeBowser() - Closing the borwser 
+[INFO ] 2022-04-13 01:02:14,311 MenubarTest.launching() - Open the Home Page
+[INFO ] 2022-04-13 01:02:19,523 MenubarTest.signIn() - Click on Sign In Tab from HomePage
+[INFO ] 2022-04-13 01:02:36,966 MenubarTest.closeBowser() - Closing the borwser 
+[INFO ] 2022-04-13 01:02:36,969 MenubarTest.launching() - Open the Home Page
+[INFO ] 2022-04-13 01:02:43,128 MenubarTest.signUp() - Click on SignUp Tab Tab from HomePage
+[INFO ] 2022-04-13 01:02:51,693 MenubarTest.closeBowser() - Closing the borwser 
+[INFO ] 2022-04-13 01:02:51,697 MenubarTest.launching() - Open the Home Page
+[INFO ] 2022-04-13 01:02:57,501 MenubarTest.giftcards() - Click on GiftCard Tab from HomePage
+[INFO ] 2022-04-13 01:03:00,449 MenubarTest.giftcards() - Successfully validated the test 
+[INFO ] 2022-04-13 01:03:05,739 MenubarTest.closeBowser() - Closing the borwser 

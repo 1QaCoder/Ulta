@@ -1,0 +1,51 @@
+[INFO ] 2022-04-13 01:16:45,721 MenubarTest.launching() - Open the Home Page
+[INFO ] 2022-04-13 01:16:52,990 MenubarTest.findStore() - Click on FindStore Tab from HomePage
+[INFO ] 2022-04-13 01:16:57,568 MenubarTest.findStore() - Successfully validated the test 
+[INFO ] 2022-04-13 01:17:02,520 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:17:02,523 MenubarTest.launching() - Open the Home Page
+[INFO ] 2022-04-13 01:17:09,260 MenubarTest.giftcards() - Click on GiftCard Tab from HomePage
+[INFO ] 2022-04-13 01:17:09,738 MenubarTest.giftcards() - Successfully validated the test 
+[INFO ] 2022-04-13 01:17:14,421 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:17:14,423 MenubarTest.launching() - Open the Home Page
+[INFO ] 2022-04-13 01:17:20,696 MenubarTest.signIn() - Click on Sign In Tab from HomePage
+[INFO ] 2022-04-13 01:17:34,592 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:17:34,594 MenubarTest.launching() - Open the Home Page
+[INFO ] 2022-04-13 01:17:40,880 MenubarTest.signUp() - Click on SignUp Tab Tab from HomePage
+[INFO ] 2022-04-13 01:17:45,305 MenubarTest.signUp() - Successfully validated the test 
+[INFO ] 2022-04-13 01:17:49,478 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:17:49,480 MenubarTest.launching() - Opening the Browser and Launching the application
+[INFO ] 2022-04-13 01:17:57,841 MenubarTest.logo() - Check logo
+[INFO ] 2022-04-13 01:17:57,993 MenubarTest.logo() - Successfully validated the test 
+[INFO ] 2022-04-13 01:18:02,162 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:18:02,162 MenubarTest.launching() - Opening the Browser and Launching the application
+[INFO ] 2022-04-13 01:18:12,431 MenubarTest.navigator() - Click and Open naviagation tab 
+[INFO ] 2022-04-13 01:18:17,035 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:18:17,036 MenubarTest.launching() - Opening the Browser and Launching the application
+[INFO ] 2022-04-13 01:18:25,697 MenubarTest.search() - Entering values in the search bar 
+[INFO ] 2022-04-13 01:18:28,379 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:18:28,380 MenubarTest.launching() - Opening the Browser and Launching the application
+[INFO ] 2022-04-13 01:18:37,624 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:18:37,626 MenubarTest.launching() - Opening the Browser and Launching the application
+[INFO ] 2022-04-13 01:18:45,774 MenubarTest.validCredentilasFromProp() - Accepting cookies
+[INFO ] 2022-04-13 01:18:46,690 MenubarTest.validCredentilasFromProp() - Retrieving valid login credentials from config.property file
+[INFO ] 2022-04-13 01:18:49,897 MenubarTest.validCredentilasFromProp() - Successfully validated the test 
+[INFO ] 2022-04-13 01:18:54,672 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:18:54,673 MenubarTest.launching() - Opening the Browser and Launching the application
+[INFO ] 2022-04-13 01:19:02,922 MenubarTest.invaliCredentials() - Accepting cookies
+[INFO ] 2022-04-13 01:19:03,070 MenubarTest.invaliCredentials() - Retrieving invalid login credentials from data file
+[INFO ] 2022-04-13 01:19:05,850 MenubarTest.invaliCredentials() - Successfully validated the test 
+[INFO ] 2022-04-13 01:19:06,198 MenubarTest.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:19:06,199 CheckCartClass.launching() - dirver is initialized
+[INFO ] 2022-04-13 01:19:14,537 CheckCartClass.launching() - Navigated to home page
+[INFO ] 2022-04-13 01:19:14,538 CheckCartClass.forgoPassword() - Click on forgot password link 
+[INFO ] 2022-04-13 01:19:24,930 CheckCartClass.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:19:24,931 CheckCartClass.launching() - dirver is initialized
+[INFO ] 2022-04-13 01:19:31,833 CheckCartClass.launching() - Navigated to home page
+[INFO ] 2022-04-13 01:19:31,834 CheckCartClass.selectCart() - Click on cart button 
+[INFO ] 2022-04-13 01:19:35,142 CheckCartClass.selectCart() - Successfully validated the test 
+[INFO ] 2022-04-13 01:19:39,303 CheckCartClass.closeBowser() - Closing the browser 
+[INFO ] 2022-04-13 01:19:39,304 CheckCartClass.launching() - dirver is initialized
+[INFO ] 2022-04-13 01:19:48,007 CheckCartClass.launching() - Navigated to home page
+[INFO ] 2022-04-13 01:19:48,008 CheckCartClass.selectProduct() - Adding the product in cart 
+[INFO ] 2022-04-13 01:19:56,040 CheckCartClass.selectProduct() - Successfully validated the test 
+[INFO ] 2022-04-13 01:20:00,259 CheckCartClass.closeBowser() - Closing the browser 

@@ -1,0 +1,16 @@
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<suite name="testing">
+
+<listeners>
+<listener class-name="ExtentReportListner.Listeners"/>
+</listeners>
+
+<test name="Test">
+<classes>
+<class name="TestPackage.MenubarTest" />
+</classes>
+</test>
+
+
+
+</suite>

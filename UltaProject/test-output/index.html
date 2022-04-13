@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-testing" class="navigator-link">
+              <span class="suite-name border-failed">testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-testing" class="navigator-link ">
+                    <span>C:\Users\Darsh\eclipse-workspace\UltaProject\src\test\resources\XMLFiles\ExtentReports.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-testing" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-testing" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 4 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testing" class="hide-methods failed suite-testing"> (hide)</a> <!-- hide-methods failed suite-testing -->
+                      <a href="#" panel-name="suite-testing" class="show-methods failed suite-testing"> (show)</a> <!-- show-methods failed suite-testing -->
+                    </span>
+                    <div class="method-list-content failed suite-testing">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.CheckCartTest" class="method navigator-link" hash-for-method="forgoPassword">forgoPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.HomePageTest" class="method navigator-link" hash-for-method="navigator">navigator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.HomePageTest" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.MenubarTest" class="method navigator-link" hash-for-method="signIn">signIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testing" class="hide-methods passed suite-testing"> (hide)</a> <!-- hide-methods passed suite-testing -->
+                      <a href="#" panel-name="suite-testing" class="show-methods passed suite-testing"> (show)</a> <!-- show-methods passed suite-testing -->
+                    </span>
+                    <div class="method-list-content passed suite-testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.MenubarTest" class="method navigator-link" hash-for-method="findStore">findStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.MenubarTest" class="method navigator-link" hash-for-method="giftcards">giftcards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.LoginTest" class="method navigator-link" hash-for-method="invaliCredentials">invaliCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.LoginTest" class="method navigator-link" hash-for-method="login1">login1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.HomePageTest" class="method navigator-link" hash-for-method="logo">logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.CheckCartTest" class="method navigator-link" hash-for-method="selectCart">selectCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.CheckCartTest" class="method navigator-link" hash-for-method="selectProduct">selectProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.MenubarTest" class="method navigator-link" hash-for-method="signUp">signUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testing" title="TestPackage.LoginTest" class="method navigator-link" hash-for-method="validCredentilasFromProp">validCredentilasFromProp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testing" class="panel testing">
+          <div class="suite-testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestPackage.MenubarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn">
+                  </a> <!-- signIn -->
+                  <span class="method-name">signIn</span>
+                  <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method TestPackage.MenubarTest.signIn() didn&apos;t finish within the time-out 5000
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testing-class-failed -->
+          <div class="suite-testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestPackage.CheckCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgoPassword">
+                  </a> <!-- forgoPassword -->
+                  <span class="method-name">forgoPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.75)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DARSH-PC&apos;, ip: &apos;192.168.0.181&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fb9a853716f3b63bc3c2cd33ed37c24
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy28.sendKeys(Unknown Source)
+	at PageClassPackage.CheckCartClass.forgotPassword(CheckCartClass.java:71)
+	at TestPackage.CheckCartTest.forgoPassword(CheckCartTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testing-class-failed -->
+          <div class="suite-testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestPackage.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigator">
+                  </a> <!-- navigator -->
+                  <span class="method-name">navigator</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.ulta.com/brand/dior] but found [https://www.ulta.com/]
+	at PageClassPackage.HomePageClass.navigator(HomePageClass.java:69)
+	at TestPackage.HomePageTest.navigator(HomePageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.ulta.com/shop/makeup] but found [https://www.ulta.com/]
+	at PageClassPackage.HomePageClass.enterValuesToSearchField(HomePageClass.java:61)
+	at TestPackage.HomePageTest.search(HomePageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testing-class-failed -->
+          <div class="suite-testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPackage.MenubarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findStore">
+                  </a> <!-- findStore -->
+                  <span class="method-name">findStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftcards">
+                  </a> <!-- giftcards -->
+                  <span class="method-name">giftcards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUp">
+                  </a> <!-- signUp -->
+                  <span class="method-name">signUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testing-class-passed -->
+          <div class="suite-testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPackage.CheckCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCart">
+                  </a> <!-- selectCart -->
+                  <span class="method-name">selectCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProduct">
+                  </a> <!-- selectProduct -->
+                  <span class="method-name">selectProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testing-class-passed -->
+          <div class="suite-testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPackage.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invaliCredentials">
+                  </a> <!-- invaliCredentials -->
+                  <span class="method-name">invaliCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login1">
+                  </a> <!-- login1 -->
+                  <span class="method-name">login1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredentilasFromProp">
+                  </a> <!-- validCredentilasFromProp -->
+                  <span class="method-name">validCredentilasFromProp</span>
+                  <em>
+(Used Valid credentials from config.property)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testing-class-passed -->
+          <div class="suite-testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPackage.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logo">
+                  </a> <!-- logo -->
+                  <span class="method-name">logo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testing-class-passed -->
+        </div> <!-- panel testing -->
+        <div panel-name="test-xml-testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Darsh\eclipse-workspace\UltaProject\src\test\resources\XMLFiles\ExtentReports.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;testing&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ExtentReportListner.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestPackage.MenubarTest&quot;/&gt;
+      &lt;class name=&quot;TestPackage.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;TestPackage.LoginTest&quot;/&gt;
+      &lt;class name=&quot;TestPackage.CheckCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">SkipTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testing');
+function tableData_testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'forgoPassword')
+data.setCell(0, 2, 'TestPackage.CheckCartTest')
+data.setCell(0, 3, 10047);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectProduct')
+data.setCell(1, 2, 'TestPackage.CheckCartTest')
+data.setCell(1, 3, 8034);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validCredentilasFromProp')
+data.setCell(2, 2, 'TestPackage.LoginTest')
+data.setCell(2, 3, 7269);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invaliCredentials')
+data.setCell(3, 2, 'TestPackage.LoginTest')
+data.setCell(3, 3, 5930);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signIn')
+data.setCell(4, 2, 'TestPackage.MenubarTest')
+data.setCell(4, 3, 5007);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'findStore')
+data.setCell(5, 2, 'TestPackage.MenubarTest')
+data.setCell(5, 3, 4602);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signUp')
+data.setCell(6, 2, 'TestPackage.MenubarTest')
+data.setCell(6, 3, 4428);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectCart')
+data.setCell(7, 2, 'TestPackage.CheckCartTest')
+data.setCell(7, 3, 3309);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'search')
+data.setCell(8, 2, 'TestPackage.HomePageTest')
+data.setCell(8, 3, 2408);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'giftcards')
+data.setCell(9, 2, 'TestPackage.MenubarTest')
+data.setCell(9, 3, 480);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'navigator')
+data.setCell(10, 2, 'TestPackage.HomePageTest')
+data.setCell(10, 3, 416);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'logo')
+data.setCell(11, 2, 'TestPackage.HomePageTest')
+data.setCell(11, 3, 154);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'login1')
+data.setCell(12, 2, 'TestPackage.LoginTest')
+data.setCell(12, 3, 2);
+window.suiteTableData['testing']= { tableData: data, tableDiv: 'times-div-testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-testing">
+              </div> <!-- times-div-testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestPackage.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackage.MenubarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findStore</span>
+                <span class="method-start">7257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">11871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">16813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">giftcards</span>
+                <span class="method-start">23549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">24039 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">28714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signIn</span>
+                <span class="method-start">34981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">40000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">48884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUp</span>
+                <span class="method-start">55168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">59597 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackage.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">63771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logo</span>
+                <span class="method-start">72130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">72285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">76453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigator</span>
+                <span class="method-start">86721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">87139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">91327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">search</span>
+                <span class="method-start">99988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">102399 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackage.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">102671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login1</span>
+                <span class="method-start">107714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">107720 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">111917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredentilasFromProp</span>
+                <span class="method-start">116919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">124191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">128964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invaliCredentials</span>
+                <span class="method-start">134211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">140142 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackage.CheckCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">140490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">forgoPassword</span>
+                <span class="method-start">148828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">158878 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">159222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectCart</span>
+                <span class="method-start">166124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">169434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launching</span>
+                <span class="method-start">173595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">182298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBowser</span>
+                <span class="method-start">190333 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
